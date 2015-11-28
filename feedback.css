@@ -1,0 +1,182 @@
+body {
+	min-height: 100%;
+}
+
+#theBody {
+	min-height: 80%;
+}
+
+#myProgressRow {
+	margin: 30px 0 20px 0;
+}
+
+#progressRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#topRow {
+	padding: 8px;
+	width: 100%;
+	text-align: left;
+	padding-left: 3%;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(78, 86, 90);
+	margin-top: 20px;
+}
+
+#myButtons {
+	margin: 40px 0;
+}
+
+#buttonsRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#goToStats {
+	height: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(176, 203, 31);
+	width: 20%;
+	margin-left: 10px;
+	border: 0px;
+}
+
+.orderNumber {
+	margin-left: 10px;
+	color: rgb(176, 203, 31);
+}
+
+.panel-heading {
+	cursor: pointer;
+	text-align: left;
+	font-size: 23px;
+	font-weight: bold;
+	color: rgb(78, 86, 90);
+	padding: 15px;
+	padding-left: 3%;
+	border: 0px;
+	display: flex;
+}
+
+.panel-heading:hover {
+	background-color: rgba(176, 203, 31, 0.25);
+}
+
+.panel {
+	-webkit-box-shadow: 0 0px 0px rgb(0,0,0); 
+	box-shadow: 0 0px 0px rgb(0,0,0); 
+	border: 0px;
+	border-radius: 0px !important;
+}
+
+.panel-body {
+	background-color: rgba(78, 86, 90, 0.03);
+	border-top: 0px !important;
+}
+
+.panel-group .panel+.panel {
+	margin: 0px;
+}
+
+.unevenBackground {
+	background-color: rgba(78, 86, 90, 0.1);
+}
+
+.progressCircle {
+	height: 75px;
+	margin: 0 10px;
+}
+
+.topHalfFeedback {
+	display: flex;
+}
+
+.feedbackPicture {
+	width: 20%;
+	background-color: #fff;
+	border: 1px solid rgba(78, 86, 90, 0.2);
+}
+
+.actualFeedback {
+	width: 80%;
+	padding-left: 30px;
+}
+
+.dividerFeedback {
+	width: 100%;
+	margin: 20px 0 20px 0;
+	border-bottom: 3px solid rgba(78, 86, 90, 0.4);
+}
+
+.buttonsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedbackTitle {
+	margin-bottom: 10px;
+}
+
+.feedbackBack {
+  height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(241, 0, 55);
+  width: 20%;
+  margin-right: 10px;
+  border: 0px;
+  display: none;
+}
+
+.feedbackNext {
+  height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(176, 203, 31);
+  width: 20%;
+  margin-left: 10px;
+  border: 0px;
+}
+
+.questionTitle {
+	text-align: left;
+	font-size: 23px;
+	font-weight: bold;
+	color: rgb(78, 86, 90);
+}
+
+.answers {
+	text-align: left;
+	font-size: 18px;
+	color: rgb(78, 86, 90);
+}
+
+.noShow {
+	display: none;
+}
+
+.singleCHoice {
+	align-items: center;
+	justify-content: left;
+}
+
+.radioButton{
+	margin-right: 5px !important;
+}
+
+.input-group {
+	margin-bottom: 5px;
+	font-size: 18px;
+	color: rgb(78, 86, 90);
+}

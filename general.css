@@ -1,0 +1,224 @@
+@font-face {
+    font-family: avalon;
+    src: url(Fonts/avalonn_0.ttf);
+}
+
+@font-face {
+    font-family: avalonBold;
+    src: url(Fonts/avalonb_0.ttf);
+}
+
+@font-face {
+    font-family: avalonItalic;
+    src: url(Fonts/avaloni_0.ttf);
+}
+
+div {
+	font-family: avalon;
+}
+
+#myHeaderRow {
+	background-color: rgb(255, 255, 255);
+	height: 75px;
+}
+
+#theFooter {
+	background-color: rgb(78, 86, 90);
+	height: 75px;
+	margin-top: 20px;
+}
+
+#mySubHeaderRow {
+	background-color: rgb(176, 203, 31);
+	height: 50px;
+}
+
+#subHeaderRight {
+	display: flex;
+	height: 100%;
+}
+
+#numberInBasket {
+	position: absolute;
+	color: #fff;
+	top: 2px;
+	left: 21px;
+	font-weight: 600;
+}
+
+#headerRight {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#basket {
+	position: relative;
+	height: 50px;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+#inbox {
+	position: relative;
+	height: 50px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#headerLeft {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: right;
+}
+
+#headerImageContainer {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#containerBody { 
+	margin: 0;
+}
+
+#footerControls {
+	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#footerText {
+	height: 40%;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+
+#searchInput {
+	width: 100%;
+	border-right: 0px;
+	border-top: 1px solid rgba(78, 86, 90, 0.5);
+	border-bottom: 1px solid rgba(78, 86, 90, 0.5);
+	border-left: 1px solid rgba(78, 86, 90, 0.5);
+	padding: 5px 0 5px 7px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+}
+
+#logo {
+	height: 60%;
+	margin: 0 auto;
+} 
+
+#logoutBottom {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 10px 0 50px;
+}
+
+#facebookBottom {
+	height: 32px;
+	margin: 0 10px;
+}
+
+#twitterBottom {
+	height: 32px;
+	margin: 0 10px;
+}
+
+.facebookShare {
+	height: 32px;
+	margin: 0 10px;
+}
+
+.twitterShare {
+	height: 32px;
+	margin: 0 10px;
+}
+
+.searchButton{
+	border-top: 1px solid rgba(78, 86, 90, 0.5);
+	border-bottom: 1px solid rgba(78, 86, 90, 0.5);
+	border-right: 1px solid rgba(78, 86, 90, 0.5);
+	height: 32px;
+	padding: 4px;
+	margin-right: 10px;
+	background: #fff;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+.searchBar {
+	margin: 0 0 0 10px;
+	font-weight: 600;
+	padding: 10px 0;
+	font-size: 14px;
+	color: rgba(78, 86, 90, 0.5);
+	width: 40%;
+}
+
+.searchBarBottom {
+	margin: 0 0 0 10px;
+	font-weight: 600;
+	padding: 10px 0;
+	font-size: 14px;
+	color: rgba(78, 86, 90, 0.5);
+	width: 20%;
+}
+
+.userName {
+	margin: 0 10px 0 17px;
+	font-weight: 800;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	color: rgba(78, 86, 90, 0.5);
+}
+
+.logout {
+	margin: 0 10px 0 10px;
+	font-weight: 800;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	color: rgb(78, 86, 90);
+}
+
+.templateProd {
+	margin: 20px 0;
+	padding: 0px;
+	height: 300px;
+	text-align: center;
+}
+
+.divider {
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+}
+
+.subHeaderText {
+	margin: 0 17px 0 17px;
+	font-weight: 800;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+}
+
+.subHeaderText:active {
+	cursor: pointer;
+	color: rgb(78, 86, 90);	
+}
+
+.subHeaderText:hover {
+	cursor: pointer;
+	color: rgb(78, 86, 90);	
+}

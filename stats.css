@@ -1,0 +1,45 @@
+#mySubHeaderRow {
+  background-color: #003366;
+}
+
+#containerBody {
+	display: flex;
+	margin-top: 30px;
+}
+
+#controls {
+	flex: 1;
+	min-height: 700px;
+	background-color: #003366;
+	padding: 30px 10px 0px 20px;
+	color: #fff;
+	font-weight: 600;
+}
+
+#graphs {
+	flex: 5;
+}
+
+#statisticsTitle {
+	background-color: rgba(0,51,102,0.2);
+	color: #003366;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 600;
+	border-bottom: 4px solid #003366;
+	padding: 10px 0;
+}
+
+#datesControl, #layoutControl {
+	margin-top: 30px;
+}
+
+#theProducts, #theDates, #theLayout {
+	font-size: 16px;
+}
+
+.controlGroup {
+	font-size: 19px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}

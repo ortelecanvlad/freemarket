@@ -1,0 +1,159 @@
+body {
+	min-height: 100%;
+}
+
+#theBody {
+	min-height: 80%;
+}
+
+#categoryRow {
+	height: 70px;
+}
+
+#containerBody { 
+	margin: 0;
+}
+
+#categoryText {
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0 8px 0;
+	font-size: 33px;
+	color: rgb(78, 86, 90);
+    border-bottom: solid 3px rgb(176, 203, 31);
+    margin: 0 10px;
+}
+
+#myProgressRow {
+	margin: 30px 0 20px 0;
+}
+
+#progressRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#myButtons {
+	margin: 40px 0;
+}
+
+#buttonsRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#backButton {
+	height: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(241, 0, 55);
+	width: 20%;
+	margin-right: 10px;
+	border: 0px;
+}
+
+#forwardButton {
+	height: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(176, 203, 31);
+	width: 20%;
+	margin-left: 10px;
+	border: 0px;
+}
+
+.arrow {
+	height: 20px;
+	margin: 0 10px;
+}
+
+.progressCircle {
+	height: 75px;
+	margin: 0 10px;
+}
+
+.templateProd {
+	margin: 20px 0;
+	padding: 0px;
+	height: 300px;
+	text-align: center;
+}
+
+.subHeaderText:active {
+	cursor: pointer;
+	color: rgb(78, 86, 90);	
+}
+
+.subHeaderText:hover {
+	cursor: pointer;
+	color: rgb(78, 86, 90);	
+}
+
+.table {
+	margin-top: 20px;
+}
+
+.table td:first-child, .table th:first-child {
+	text-align: left;
+	border: 0px;
+	width: 55%;
+	padding-left: 8%;
+	border-right: 2px solid rgb(241, 241, 241);
+}
+
+.table td:last-child, .table th:last-child {
+	width: 15%;
+	border-left: 2px solid rgb(241, 241, 241);
+}
+
+.table td:last-child {
+	padding: 2px;
+}
+
+.table td, .table th {
+	text-align: center;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+.table>thead>tr>th {
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(78, 86, 90);
+}
+
+.table>tbody>tr>td {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(78, 86, 90);
+	padding: 15px;
+}
+
+.table>tbody>tr:nth-child(even) {
+	background-color: rgba(78, 86, 90,0.07);
+}
+
+.table-hover>tbody>tr:hover {
+	background-color: rgba(176, 203, 31, 0.25);
+}
+
+.deleteBtn {
+	height: 20px;
+	width: 20px;
+	margin: auto;
+	font-size: 33px;
+	font-family: avalonBold;
+}
+
+.deleteBtn:hover {
+	color: rgb(241, 0, 55);
+}
+
+.cursorPointer {
+	cursor: pointer;
+}

@@ -1,0 +1,116 @@
+#prodAndName {
+	border-bottom: 3px solid rgb(176, 203, 31);
+	font-size: 30px;
+    font-weight: bold;
+    color: rgb(78, 86, 90);
+    padding: 5px 0 8px 0;
+    margin: 20 0px;
+}
+
+#topBodyRow {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#middleBodyRow {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+#emptySlot {
+	flex: 1;
+	padding: 0 9px;	
+}
+
+#basketButton {
+	flex: 2;
+}
+
+#emptySlot2 {
+	flex: 6;
+}
+
+#shuffleImages {
+	flex: 1;
+	padding: 0 10px;
+	align-items: center;
+  	justify-content: center;
+}
+
+#productImage {
+	flex: 2;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+	border: 2px solid rgba(78, 86, 90, 0.1);
+}
+
+#similar {
+	border-bottom: 3px solid rgb(176, 203, 31);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(78, 86, 90);
+    padding: 5px 0 8px 0;
+    margin: 20 0px;
+}
+
+#productDescription {
+	flex: 6;
+	padding: 0 10px;
+}
+
+#productTitle {
+	font-size: 25px;
+    font-weight: bold;
+    color: rgb(78, 86, 90);
+    padding: 5px 0 5px 0;
+}
+
+#productText {
+	font-size: 15px;
+    color: rgb(78, 86, 90);
+    padding: 5px 0 5px 0;
+}
+
+#upArrow {
+	margin-bottom: 10px;
+}
+
+#downArrow {
+	margin-top: 10px;
+}
+
+.productThumbnail {
+	height: 100%;
+    margin: 0 10px;
+    border: 2px solid rgba(78, 86, 90, 0.1);
+    position: relative;
+}
+
+.productImageOther {
+    height: 80%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.productNameOther {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(78, 86, 90);
+    font-size: 24px;
+    height: 20%;
+}
+
+.suffleArrow {
+	width: 50%;
+	margin: auto;
+}
+
+.sufflePics {
+	width: 90%;
+	margin: 5px auto 5px auto;
+	border: 2px solid rgba(78, 86, 90, 0.1);
+}

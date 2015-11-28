@@ -1,0 +1,134 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Free Market</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <link rel="stylesheet" type="text/css" href="basket.css">
+  <style type="text/css"></style></head>
+
+  <body>
+    <div class="container-fluid" id="myHeader">
+      <div class="row" id="myHeaderRow">
+        <div class="col-xs-7 col-sm-7 col-md-6 col-lg-6">
+          <div class="row" id="headerLeft">
+            <div id="logo">
+              <img src="Elements/logo.png" alt="" style="height:100%;">
+            </div>
+            <div id="basket">
+              <img src="Elements/basket.png" alt="" style="height:100%;">
+              <div id="numberInBasket"></div>
+            </div>
+            <div id="inbox">
+              <img src="Elements/mailbox.png" alt="" style="height:100%;">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-5 col-sm-5 col-md-6 col-lg-6">
+          <div class="row" id="headerRight">
+            <div class="userName">BOGDAN STANCU</div>
+            <div class="logout">Log out</div>
+            <div class="searchBar hidden-xs hidden-sm"><input id="searchInput" type="text" name="Search" placeholder="Caută produsul dorit"></div>
+            <div class="searchButton hidden-xs hidden-sm"><img src="Elements/search.png" alt="" style="height:100%;"></div>
+            <div class="facebookShare hidden-xs hidden-sm"><img src="Elements/facebook_dark.png" alt="" style="height:100%;"></div>
+            <div class="twitterShare hidden-xs hidden-sm"><img src="Elements/twitter_dark.png" alt="" style="height:100%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="mySubHeaderRow">
+        <div class="col-xs-1 col-sm-1 col-md-6 col-lg-6"></div>
+        <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6">
+          <div class="row" id="subHeaderRight">
+            <div class="subHeaderText" id="productMenu">PRODUSE</div>
+            <div class="divider">|</div>
+            <div class="subHeaderText">DESPRE NOI</div>
+            <div class="divider">|</div>
+            <div class="subHeaderText">CONTACT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="myProgressRow">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="progressRow">
+          <div class="progressCircle" id="cart_icon"><img src="Elements/cart_active.png" alt="" style="height:100%;"></div>
+          <div class="arrow"><img src="Elements/arrow.png" alt="" style="height:100%;"></div>
+          <div class="progressCircle" id="confirm_icon"><img src="Elements/comfirm_pasive.png" alt="" style="height:100%;"></div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="theBody">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <div class="row" id="containerBody">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>PRODUCT</th>
+                  <th>PRICE</th>
+                  <th>REMOVE</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>
+    </div>
+
+    <div class="row" id="myButtons">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="buttonsRow">
+          <button type="button" id="backButton">Back</button>
+          <button type="button" id="forwardButton">Forward</button>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="theFooter">
+        <div id="footerControls">
+          <div class="searchBarBottom"><input id="searchInput" type="text" name="Search" placeholder="Caută produsul dorit"></div>
+          <div class="searchButton"><img src="Elements/search.png" alt="" style="height:100%;"></div>
+          <div id="logoutBottom">Log out</div>
+          <div id="facebookBottom"><img src="Elements/facebook_light.png" alt="" style="height:100%;"></div>
+          <div id="twitterBottom"><img src="Elements/twitter_light.png" alt="" style="height:100%;"></div>
+        </div>
+        <div id="footerText" class="hidden-xs hidden-sm">@ 2015 Freemarket LLC All rights reserved. Freemarket Terms of Use and Privacy Policy. Freemarket is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="basket.js"></script>
+    <script src="boostrap/js/bootstrap.min.js"></script>
+
+</body></html>
